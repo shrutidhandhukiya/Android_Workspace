@@ -1,0 +1,23 @@
+// Task
+
+1) SELECT * FROM employee ORDER BY FIRST_NAME ASC
+
+2) SELECT * FROM employee ORDER BY SALARY
+
+3).select * from employee where FIRST_NAME like 'j%' 
+
+4) SELECT * FROM employee WHERE DESIGNATION ='CLERK'
+
+5)DELETE FROM employee WHERE EMPNO = 1004
+
+6)SELECT * FROM employee WHERE DEPTNO = 40
+
+7)SELECT MAX(SALARY) FROM employee
+
+8)SELECT MIN(SALARY) FROM employee
+
+9)SELECT SUM(SALARY) FROM employee
+
+10)SELECT * FROM employee GROUP by SALARY ORDER BY SALARY DESC LIMIT 1,1; )  OR
+
+11) SELECT Salary FROM (SELECT Salary FROM Employee ORDER BY salary DESC LIMIT 2) AS Emp ORDER BY salary LIMIT 1
