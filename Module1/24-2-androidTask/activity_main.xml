@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="177dp"
+            android:layout_height="177dp"
+            android:src="@drawable/ganesh"
+            android:layout_marginTop="11dp"
+            android:layout_marginStart="11dp"/>
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_toEndOf="@id/image"
+            android:text="Gold Art India Silver plated ganesha "
+            android:textColor="@color/black"
+            android:layout_marginTop="19dp"
+            android:layout_marginStart="9dp"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvProductName"
+        android:layout_toEndOf="@id/image"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="5dp"
+        android:text="₹649"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPrice"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/image"
+             android:layout_marginStart="9dp"
+           android:layout_marginTop="5dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="177dp"
+            android:layout_height="177dp"
+            android:src="@drawable/tree"
+            android:layout_below="@id/image"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="11dp"/>
+
+        <TextView
+            android:id="@+id/tvProductName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="PREK Decorative Items  for Home Decor Item"
+            android:textColor="@color/black"
+            android:layout_below="@id/button1"
+           android:layout_toEndOf="@id/imageView"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="44dp"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvPrice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹599"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvProductName1"
+            android:textColor="@color/black"
+           android:layout_toEndOf="@id/imageView"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="5dp"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPrice1"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/imageView"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="5dp"
+            />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="177dp"
+        android:layout_height="177dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/krishna" />
+
+    <TextView
+            android:id="@+id/tvProductName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Showpiece For Home Decoration Gift"
+            android:textColor="@color/black"
+           android:layout_toEndOf="@id/imageView2"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="41dp"
+            android:layout_below="@id/button2"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvPrice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ₹399"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvProductName2"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@id/imageView2"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="5dp"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPrice2"
+            android:text="Order"
+            android:textColor="@color/white"
+           android:layout_toEndOf="@id/imageView2"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="5dp"
+            />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="177dp"
+        android:layout_height="177dp"
+        android:src="@drawable/krish"
+        android:layout_below="@id/imageView2"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="11dp"/>
+
+    <TextView
+        android:id="@+id/tvProductName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="KridayKraft Laddu Gopal on Jhulla Palana Metal Statue Gold Plated Decor"
+        android:textColor="@color/black"
+       android:layout_toEndOf="@id/imageView3"
+        android:layout_below="@id/button3"
+        android:textSize="26sp"
+        android:layout_marginTop="39dp"
+        android:layout_marginStart="9dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPrice3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹359"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvProductName3"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/imageView3"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="5dp"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPrice3"
+        android:text="Order"
+        android:textColor="@color/white"
+       android:layout_toEndOf="@id/imageView3"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="177dp"
+        android:layout_height="177dp"
+        android:src="@drawable/kitchenware"
+        android:layout_below="@id/imageView3"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="11dp"/>
+
+    <TextView
+        android:id="@+id/tvProductName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Kitchenware"
+        android:textColor="@color/black"
+       android:layout_toEndOf="@id/imageView4"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="9dp"
+        android:layout_below="@id/button4"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPrice4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: 20,000"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvProductName4"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/imageView4"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="5dp"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPrice4"
+        android:text="Order"
+        android:textColor="@color/white"
+       android:layout_toEndOf="@id/imageView4"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="5dp" />
+
+</RelativeLayout>
+
+    </ScrollView>
