@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".loginActivity">
+
+    <EditText
+        android:id="@+id/edText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Mobile"
+        android:inputType="text"
+        android:background="@drawable/btnshape"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+       android:paddingStart="9dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        />
+
+    <EditText
+        android:id="@+id/edText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/edText"
+        android:background="@drawable/btnshape"
+        android:paddingStart="9dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="22dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edText1"
+        android:text="LOGIN"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/teal_700"
+        android:background="@drawable/btnshape"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginTop="22dp"/>
+
+
+
+
+
+</RelativeLayout>
