@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckBoxList">
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading"
+        android:textSize="22sp"/>
+
+    <CheckBox
+        android:id="@+id/ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Writing"
+        android:textSize="22sp"/>
+
+    <CheckBox
+        android:id="@+id/ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cricket"
+        android:textSize="22sp"/>
+
+    <CheckBox
+        android:id="@+id/ch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traveling"
+        android:textSize="22sp"/>
+    <CheckBox
+        android:id="@+id/ch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="singing"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/tvBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="submit"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/cn1"
+        android:title="Contact Us"/>
+
+    <item android:id="@+id/S1"
+        android:title="SMS"/>
+
+    <item android:id="@+id/cn2"
+        android:title="LogOut"/>
+
+</menu>
