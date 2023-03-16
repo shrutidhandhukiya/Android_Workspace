@@ -1,0 +1,25 @@
+1) What is software 
+=>
+
+2) Types of application
+
+=>Word processors.
+ Database programs.
+ Web browsers.
+ Deployment tools.
+ Image editors.
+ Communication platforms.
+
+3) What is mobile application
+
+=>  A mobile application, most commonly referred to as an app, is a type of application software designed to run on a mobile device,such as a smartphone or tablet computer. 
+   Mobile applications frequently serve to provide users with similar services to those accessed on PCs.
+=> A mobile application also may be known as an app, web app, online app, iPhone app or smartphone app.
+
+4) Difference between mobile application and web application 
+
+=>Mobile applications need to be installed from the app store, while web applications can be easily viewed from any browser and thus do not need to be installed.
+=> Mobile applications can be accessed even offline, and that’s not the case with web applications since browsers do not work without a proper internet connection.
+
+5) Who developed Android
+=>  Android is developed by a consortium of developers known as the Open Handset Alliance, though its most widely used version is primarily developed by Google. 
