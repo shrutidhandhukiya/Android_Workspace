@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/liner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedioButtonActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+     <RadioGroup
+         android:id="@+id/rg"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+
+   <RadioButton
+       android:id="@+id/rvRadioBtn1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Pizza"
+       android:textSize="22sp"/>
+
+    <RadioButton
+        android:id="@+id/rvRadioBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger"
+        android:textSize="22sp"/>
+
+     </RadioGroup>
+
+</LinearLayout>

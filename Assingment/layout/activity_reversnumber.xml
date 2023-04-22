@@ -4,24 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/liner"
-    android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".ReversNumber"
+    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/Btn1"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/edText"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Black"/>
+        android:hint="Enter Number"/>
 
-    <Button
-        android:id="@+id/Btn2"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/tvext"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="red"
-        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:text=" "
         />
-
-
 
 </LinearLayout>
