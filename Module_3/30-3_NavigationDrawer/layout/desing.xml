@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardCornerRadius="5dp"
+    app:cardMaxElevation="7dp"
+    android:layout_marginTop="10dp"
+    card_view:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="false"
+    android:layout_margin="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="21sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="12dp"/>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:id="@+id/tvProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs.33.0"
+            android:layout_marginTop="6dp"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#310978"
+            android:layout_gravity="center"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape"
+            android:text="SUBSCRIBE @ $33.O"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPlus"
+                android:layout_width="24dp"
+                android:layout_height="33dp"
+                android:background="@drawable/border"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="12dp"
+                android:text="-"
+                android:layout_marginBottom="22dp"/>
+
+            <EditText
+                android:id="@+id/edTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="3dp"
+                android:textSize="15sp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnMinus"
+                android:layout_width="28dp"
+                android:layout_height="33dp"
+                android:text="+"
+                android:background="@drawable/border"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/AddTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ADD"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingTop="3dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="16dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/border"
+                android:layout_marginBottom="22dp"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

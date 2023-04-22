@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            android:title="My Cart" />
+
+        <item
+            android:id="@+id/nav_Transaction"
+            android:icon="@drawable/baseline_policy_24"
+            android:title="My Transaction" />
+
+        <item
+            android:id="@+id/nav_MySubscription"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            android:title="My Subscription" />
+
+        <item
+            android:id="@+id/nav_AboutUs"
+            android:icon="@drawable/baseline_attribution_24"
+            android:title="AboutUs " />
+
+        <item
+            android:id="@+id/nav_ContactUs"
+            android:icon="@drawable/baseline_call_24"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_Terms"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:title="Terms &amp; Condition " />
+
+        <item
+            android:id="@+id/nav_Privacy"
+            android:icon="@drawable/baseline_policy_24"
+            android:title="Privacy Policy" />
+
+        <item
+            android:id="@+id/nav_LogOut"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="Logout" />
+
+
+
+    </group>
+</menu>
