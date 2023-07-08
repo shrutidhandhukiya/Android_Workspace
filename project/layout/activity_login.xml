@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/shopIcon"
+            android:layout_width="424dp"
+            android:layout_height="244dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/giftlogopic" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/baseline_phone_24"
+            app:startIconTint="#D68207"
+            app:boxStrokeColor="#D68207"
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp">
+
+            <EditText
+                android:id="@+id/edMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_mobile_number"
+                android:inputType="number"
+                android:textColorHint="#D68207"
+                android:textSize="20sp"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/baseline_keyboard_24"
+            app:startIconTint="#D68207"
+            app:boxStrokeColor="#D68207"
+            android:layout_marginTop="9dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/black">
+
+            <EditText
+                android:id="@+id/edPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textSize="20sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvForgotPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textSize="17sp"
+            android:layout_gravity="end"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="39dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btLoginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:backgroundTint="#D68207"
+            android:layout_margin="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tvSignuptxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/new_user_sing_up"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tvOr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/or"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="21dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="7dp">
+
+            <ImageView
+                android:id="@+id/facebookLink"
+                android:layout_width="44dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_facebook" />
+
+            <ImageView
+                android:id="@+id/GoogleLink"
+                android:layout_width="44dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_google"
+                android:layout_marginStart="11dp"/>
+
+         <!--   <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="2"
+                android:background="@drawable/btn_bg2"
+                android:drawableStart="@drawable/ic_facebook"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/facebook"
+                android:textAllCaps="false"
+                android:layout_marginEnd="33dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginStart="22dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="22dp"
+                android:layout_weight="2"
+                android:background="@drawable/btn_bg2"
+                android:drawableStart="@drawable/ic_google"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/google"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginEnd="22dp"
+                />-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
